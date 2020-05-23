@@ -1,4 +1,4 @@
-# 1 задача
+# # 1 задача
 a_list = [20, "Привет", 2.5]
 i = len(a_list)
 while i > 0:
@@ -7,7 +7,7 @@ while i > 0:
 else:
     print("Проверка типа каждого элемента пройдена")
 
-# 2 задача
+# # 2 задача
 print("Введите количество элементов списка: ")
 n = int(input())
 
@@ -37,7 +37,7 @@ else:
     else:
         print(b_list)
 
-# 3 задача
+# # 3 задача
 month = {1: 'Январь', 2: 'Февраль', 3: 'Март', 4: 'Апрель', 5: 'Май', 6: 'Июнь', 7: 'Июль', 8: 'Август', 9: 'Сентябрь',
          10: 'Октябрь', 11: 'Ноябрь', 12: 'Декабрь'}
 print("Введите число от 1 до 12")
@@ -56,25 +56,46 @@ if 0 < month_user < 13:
 else:
     print("Такого месяца не существует")
 
-# через list ПОКА НЕ РАБОТАЕТ
+# # через list ПОКА НЕ РАБОТАЕТ
+#
+# winter_list = [1, 2, 12]
+# spring_list = [3, 4, 5]
+# summer_list = [6, 7, 8]
+# autumn_list = [9, 10, 11]
+# n = int(input())
+#
+#
+# def check(winter_list, spring_list, summer_list, autumn_list):
+#     if n in winter_list:
+#         time = 'winter'
+#     elif n in spring_list:
+#         time = 'spring'
+#     elif n in summer_list:
+#         time = 'summer'
+#     else:
+#         time = 'autumn'
+#     return time
+#
 
-winter_list = [1, 2, 12]
-spring_list = [3, 4, 5]
-summer_list = [6, 7, 8]
-autumn_list = [9, 10, 11]
-n = int(input())
+#  4 задача
+string = input()
+string_len = len(string.split(' '))
+string = string.split(' ')
+i = 0
+while i < string_len:
+    edits = string[i]
+    print(i, edits[:10])
+    i += 1
+
+# 5 задача
+while 1:
+    my_list = [7, 5, 3, 3, 2, int(input())]
+    my_list.sort()
+    my_list.reverse()
+    print(my_list)
+    break
 
 
-def check(winter_list, spring_list, summer_list, autumn_list):
-    if n in winter_list:
-        time = 'winter'
-    elif n in spring_list:
-        time = 'spring'
-    elif n in summer_list:
-        time = 'summer'
-    else:
-        time = 'autumn'
-    return time
 
-# 4 задача
+
 

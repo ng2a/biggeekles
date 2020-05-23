@@ -1,41 +1,41 @@
 # 1 задача
-# a_list = [20, "Привет", 2.5]
-# i = len(a_list)
-# while i > 0:
-#     i -= 1
-#     print(type(a_list[i]))
-# else:
-#     print("Проверка типа каждого элемента пройдена")
+a_list = [20, "Привет", 2.5]
+i = len(a_list)
+while i > 0:
+    i -= 1
+    print(type(a_list[i]))
+else:
+    print("Проверка типа каждого элемента пройдена")
 
 # 2 задача
-# print("Введите количество элементов списка: ")
-# n = int(input())
-#
-# print("Введите элементы списка: ")
-# b_list = []
-# for i in range(n):
-#     b_list.append(int(input()))
-#
-# o = len(b_list)
-# m = 0
-# n = 1
-# if o % 2 == 0:
-#
-#     while o > 0:
-#         o -= 2
-#         b_list[m], b_list[n] = b_list[n], b_list[m]
-#         m += 2
-#         n += 2
-#     else:
-#         print(b_list)
-# else:
-#     while o > 1:
-#         o -= 2
-#         b_list[m], b_list[n] = b_list[n], b_list[m]
-#         m += 2
-#         n += 2
-#     else:
-#         print(b_list)
+print("Введите количество элементов списка: ")
+n = int(input())
+
+print("Введите элементы списка: ")
+b_list = []
+for i in range(n):
+    b_list.append(int(input()))
+
+o = len(b_list)
+m = 0
+n = 1
+if o % 2 == 0:
+
+    while o > 0:
+        o -= 2
+        b_list[m], b_list[n] = b_list[n], b_list[m]
+        m += 2
+        n += 2
+    else:
+        print(b_list)
+else:
+    while o > 1:
+        o -= 2
+        b_list[m], b_list[n] = b_list[n], b_list[m]
+        m += 2
+        n += 2
+    else:
+        print(b_list)
 
 # 3 задача
 month = {1: 'Январь', 2: 'Февраль', 3: 'Март', 4: 'Апрель', 5: 'Май', 6: 'Июнь', 7: 'Июль', 8: 'Август', 9: 'Сентябрь',

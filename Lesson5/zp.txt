@@ -1,0 +1,5 @@
+Ivanov 20000
+Petrov 30000
+Sidorov 50000
+Degtyarev 10000
+Katushikina 12000
